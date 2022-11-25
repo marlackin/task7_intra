@@ -5,13 +5,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.start_btn{
+.bord_game{
+    padding-right: 20vh;
+}
+
+.game_btn{
     width: 200px;
     height: 35px;
     margin-bottom: 25px;
+    margin-left:50px;
     cursor: pointer;
     color: white;
     outline: none;
@@ -19,7 +25,7 @@
     border: 1px solid white;
 }
 
-.start_btn:hover{
+.game_btn:hover{
     background: greenyellow;
     color: black;
     transition: .3s all ease;
@@ -34,5 +40,14 @@
 .form_reg{
     margin-top: 25px ;
     font-size: 36px;
+    color: greenyellow;
+}
+.player{
+    font-size: 50px;
+    color: greenyellow;
+}
+
+.score{
+    font-size: 50px;
     color: greenyellow;
 }
