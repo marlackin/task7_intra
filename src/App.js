@@ -1,10 +1,11 @@
 import './App.css';
-import Game from './components/Game';
+import MainPage from './components/MainPage.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 function App() {
   return (
-    <Game/>
+     <MainPage/>
   );
 }
 
