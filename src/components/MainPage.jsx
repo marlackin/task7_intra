@@ -58,7 +58,7 @@ const MainPage = () => {
    return  (
    <div>
    <div className='score'>{optionGame.firstPlayer} {firstPlayerScore} : {secondPlayerScore} {optionGame.secondPlayer}
-   <Button variant="danger" onClick={()=>{setInGame(false)}}>Завершить партию</Button>
+   <Button variant="danger" onClick={()=>{setInGame(false);setFirstPlayerScore(0);setSecondPlayerScore(0)}}>Завершить партию</Button>
    </div>
    <div className='wrapper'>{List}</div>
    </div>)
